@@ -14,3 +14,22 @@ plugins:
   recomp_ingest_auto_publish:
     default: true
     client: false
+  recomp_ingest_crawl_enabled:
+    default: false
+    client: false
+  recomp_ingest_sources:
+    default: "awesome_decomp_games|recomplauncher|recomp_gg"
+    type: list
+    list_type: simple
+    client: false
+  recomp_ingest_min_stars:
+    default: 5
+    min: 0
+    client: false
+  recomp_ingest_batch_size:
+    default: 25
+    min: 1
+    client: false
+  recomp_ingest_update_existing:
+    default: true
+    client: false

@@ -1,0 +1,12 @@
+en:
+  site_settings:
+    recomp_ingest_enabled: "Enable the Recomp Ingest plugin endpoints and background jobs."
+    recomp_ingest_default_category: "Default category slug for ingested recompilation and decompilation topics."
+    recomp_ingest_username: "Username used as the author when creating or revising ingested topics."
+    recomp_ingest_feed_url: "Optional JSON feed URL polled periodically by PollRecompFeed."
+    recomp_ingest_auto_publish: "Automatically publish newly ingested topics as visible."
+    recomp_ingest_crawl_enabled: "Enable periodic multi-source crawling via CrawlRecompSources every 6 hours."
+    recomp_ingest_sources: "Enabled discovery sources to crawl (awesome_decomp_games, recomplauncher, recomp_gg)."
+    recomp_ingest_min_stars: "Minimum GitHub stars required for crawled projects (unless browser-playable or >= 500 downloads)."
+    recomp_ingest_batch_size: "Number of items per IngestRecompBatch Sidekiq job."
+    recomp_ingest_update_existing: "Update existing topics when crawled metadata or artwork changes."
