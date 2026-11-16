@@ -1,0 +1,16 @@
+plugins:
+  recomp_ingest_enabled:
+    default: true
+    client: false
+  recomp_ingest_default_category:
+    default: "releases"
+    client: false
+  recomp_ingest_username:
+    default: "system"
+    client: false
+  recomp_ingest_feed_url:
+    default: ""
+    client: false
+  recomp_ingest_auto_publish:
+    default: true
+    client: false
